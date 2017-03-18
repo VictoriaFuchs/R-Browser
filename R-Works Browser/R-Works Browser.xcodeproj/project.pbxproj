@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6136ACAA1E790C3F0035A484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136ACA91E790C3F0035A484 /* AppDelegate.swift */; };
+		6136ACAC1E790C3F0035A484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136ACAB1E790C3F0035A484 /* ViewController.swift */; };
+		6136ACAE1E790C3F0035A484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6136ACAD1E790C3F0035A484 /* Assets.xcassets */; };
+		6136ACB11E790C3F0035A484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6136ACAF1E790C3F0035A484 /* Main.storyboard */; };
+		6136ACBC1E790C3F0035A484 /* R_Works_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136ACBB1E790C3F0035A484 /* R_Works_BrowserTests.swift */; };
+		6136ACC71E790C3F0035A484 /* R_Works_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136ACC61E790C3F0035A484 /* R_Works_BrowserUITests.swift */; };
+		6136ACD71E790C5E0035A484 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6136ACD51E790C5E0035A484 /* Cocoa.framework */; };
+		6136ACD81E790C5E0035A484 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6136ACD61E790C5E0035A484 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6136ACB81E790C3F0035A484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6136AC9E1E790C3F0035A484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6136ACA51E790C3F0035A484;
+			remoteInfo = "R-Works Browser";
+		};
+		6136ACC31E790C3F0035A484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6136AC9E1E790C3F0035A484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6136ACA51E790C3F0035A484;
+			remoteInfo = "R-Works Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6136ACA61E790C3F0035A484 /* R-Works Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R-Works Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6136ACA91E790C3F0035A484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6136ACAB1E790C3F0035A484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6136ACAD1E790C3F0035A484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6136ACB01E790C3F0035A484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6136ACB21E790C3F0035A484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6136ACB71E790C3F0035A484 /* R-Works BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R-Works BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6136ACBB1E790C3F0035A484 /* R_Works_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_Works_BrowserTests.swift; sourceTree = "<group>"; };
+		6136ACBD1E790C3F0035A484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6136ACC21E790C3F0035A484 /* R-Works BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R-Works BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6136ACC61E790C3F0035A484 /* R_Works_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R_Works_BrowserUITests.swift; sourceTree = "<group>"; };
+		6136ACC81E790C3F0035A484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6136ACD51E790C5E0035A484 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6136ACD61E790C5E0035A484 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6136ACA31E790C3F0035A484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136ACD71E790C5E0035A484 /* Cocoa.framework in Frameworks */,
+				6136ACD81E790C5E0035A484 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6136ACB41E790C3F0035A484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6136ACBF1E790C3F0035A484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6136AC9D1E790C3F0035A484 = {
+			isa = PBXGroup;
+			children = (
+				6136ACA81E790C3F0035A484 /* R-Works Browser */,
+				6136ACBA1E790C3F0035A484 /* R-Works BrowserTests */,
+				6136ACC51E790C3F0035A484 /* R-Works BrowserUITests */,
+				6136ACA71E790C3F0035A484 /* Products */,
+				6136ACD41E790C5E0035A484 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6136ACA71E790C3F0035A484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6136ACA61E790C3F0035A484 /* R-Works Browser.app */,
+				6136ACB71E790C3F0035A484 /* R-Works BrowserTests.xctest */,
+				6136ACC21E790C3F0035A484 /* R-Works BrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6136ACA81E790C3F0035A484 /* R-Works Browser */ = {
+			isa = PBXGroup;
+			children = (
+				6136ACA91E790C3F0035A484 /* AppDelegate.swift */,
+				6136ACAB1E790C3F0035A484 /* ViewController.swift */,
+				6136ACAD1E790C3F0035A484 /* Assets.xcassets */,
+				6136ACAF1E790C3F0035A484 /* Main.storyboard */,
+				6136ACB21E790C3F0035A484 /* Info.plist */,
+			);
+			path = "R-Works Browser";
+			sourceTree = "<group>";
+		};
+		6136ACBA1E790C3F0035A484 /* R-Works BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				6136ACBB1E790C3F0035A484 /* R_Works_BrowserTests.swift */,
+				6136ACBD1E790C3F0035A484 /* Info.plist */,
+			);
+			path = "R-Works BrowserTests";
+			sourceTree = "<group>";
+		};
+		6136ACC51E790C3F0035A484 /* R-Works BrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6136ACC61E790C3F0035A484 /* R_Works_BrowserUITests.swift */,
+				6136ACC81E790C3F0035A484 /* Info.plist */,
+			);
+			path = "R-Works BrowserUITests";
+			sourceTree = "<group>";
+		};
+		6136ACD41E790C5E0035A484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6136ACD51E790C5E0035A484 /* Cocoa.framework */,
+				6136ACD61E790C5E0035A484 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6136ACA51E790C3F0035A484 /* R-Works Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6136ACCB1E790C3F0035A484 /* Build configuration list for PBXNativeTarget "R-Works Browser" */;
+			buildPhases = (
+				6136ACA21E790C3F0035A484 /* Sources */,
+				6136ACA31E790C3F0035A484 /* Frameworks */,
+				6136ACA41E790C3F0035A484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "R-Works Browser";
+			productName = "R-Works Browser";
+			productReference = 6136ACA61E790C3F0035A484 /* R-Works Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6136ACB61E790C3F0035A484 /* R-Works BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6136ACCE1E790C3F0035A484 /* Build configuration list for PBXNativeTarget "R-Works BrowserTests" */;
+			buildPhases = (
+				6136ACB31E790C3F0035A484 /* Sources */,
+				6136ACB41E790C3F0035A484 /* Frameworks */,
+				6136ACB51E790C3F0035A484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6136ACB91E790C3F0035A484 /* PBXTargetDependency */,
+			);
+			name = "R-Works BrowserTests";
+			productName = "R-Works BrowserTests";
+			productReference = 6136ACB71E790C3F0035A484 /* R-Works BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6136ACC11E790C3F0035A484 /* R-Works BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6136ACD11E790C3F0035A484 /* Build configuration list for PBXNativeTarget "R-Works BrowserUITests" */;
+			buildPhases = (
+				6136ACBE1E790C3F0035A484 /* Sources */,
+				6136ACBF1E790C3F0035A484 /* Frameworks */,
+				6136ACC01E790C3F0035A484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6136ACC41E790C3F0035A484 /* PBXTargetDependency */,
+			);
+			name = "R-Works BrowserUITests";
+			productName = "R-Works BrowserUITests";
+			productReference = 6136ACC21E790C3F0035A484 /* R-Works BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6136AC9E1E790C3F0035A484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "R-Works";
+				TargetAttributes = {
+					6136ACA51E790C3F0035A484 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6136ACB61E790C3F0035A484 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6136ACA51E790C3F0035A484;
+					};
+					6136ACC11E790C3F0035A484 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6136ACA51E790C3F0035A484;
+					};
+				};
+			};
+			buildConfigurationList = 6136ACA11E790C3F0035A484 /* Build configuration list for PBXProject "R-Works Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6136AC9D1E790C3F0035A484;
+			productRefGroup = 6136ACA71E790C3F0035A484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6136ACA51E790C3F0035A484 /* R-Works Browser */,
+				6136ACB61E790C3F0035A484 /* R-Works BrowserTests */,
+				6136ACC11E790C3F0035A484 /* R-Works BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6136ACA41E790C3F0035A484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136ACAE1E790C3F0035A484 /* Assets.xcassets in Resources */,
+				6136ACB11E790C3F0035A484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6136ACB51E790C3F0035A484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6136ACC01E790C3F0035A484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6136ACA21E790C3F0035A484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136ACAC1E790C3F0035A484 /* ViewController.swift in Sources */,
+				6136ACAA1E790C3F0035A484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6136ACB31E790C3F0035A484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136ACBC1E790C3F0035A484 /* R_Works_BrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6136ACBE1E790C3F0035A484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6136ACC71E790C3F0035A484 /* R_Works_BrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6136ACB91E790C3F0035A484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6136ACA51E790C3F0035A484 /* R-Works Browser */;
+			targetProxy = 6136ACB81E790C3F0035A484 /* PBXContainerItemProxy */;
+		};
+		6136ACC41E790C3F0035A484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6136ACA51E790C3F0035A484 /* R-Works Browser */;
+			targetProxy = 6136ACC31E790C3F0035A484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6136ACAF1E790C3F0035A484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6136ACB01E790C3F0035A484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6136ACC91E790C3F0035A484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6136ACCA1E790C3F0035A484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		6136ACCC1E790C3F0035A484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "R-Works Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Works-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6136ACCD1E790C3F0035A484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "R-Works Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Works-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6136ACCF1E790C3F0035A484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "R-Works BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Works-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R-Works Browser.app/Contents/MacOS/R-Works Browser";
+			};
+			name = Debug;
+		};
+		6136ACD01E790C3F0035A484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "R-Works BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Works-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R-Works Browser.app/Contents/MacOS/R-Works Browser";
+			};
+			name = Release;
+		};
+		6136ACD21E790C3F0035A484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "R-Works BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Works-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "R-Works Browser";
+			};
+			name = Debug;
+		};
+		6136ACD31E790C3F0035A484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "R-Works BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Works-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "R-Works Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6136ACA11E790C3F0035A484 /* Build configuration list for PBXProject "R-Works Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6136ACC91E790C3F0035A484 /* Debug */,
+				6136ACCA1E790C3F0035A484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6136ACCB1E790C3F0035A484 /* Build configuration list for PBXNativeTarget "R-Works Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6136ACCC1E790C3F0035A484 /* Debug */,
+				6136ACCD1E790C3F0035A484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6136ACCE1E790C3F0035A484 /* Build configuration list for PBXNativeTarget "R-Works BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6136ACCF1E790C3F0035A484 /* Debug */,
+				6136ACD01E790C3F0035A484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6136ACD11E790C3F0035A484 /* Build configuration list for PBXNativeTarget "R-Works BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6136ACD21E790C3F0035A484 /* Debug */,
+				6136ACD31E790C3F0035A484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6136AC9E1E790C3F0035A484 /* Project object */;
+}
